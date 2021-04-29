@@ -1,0 +1,28 @@
+.todo-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  .card{
+    background: white;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 10px 7px 71px -14px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 10px 7px 71px -14px rgba(0,0,0,0.54);
+  -moz-box-shadow: 10px 7px 71px -14px rgba(0,0,0,0.54);
+    .card-header{
+      background: #2694d1;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .card{
+    margin: 10px;
+  }
+}

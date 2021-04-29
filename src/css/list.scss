@@ -1,0 +1,52 @@
+.list{
+    padding: 10px;
+    position: relative;
+    .dele{
+        background: red;
+        width: 50px;
+        height: 40px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        line-height: 40px;
+        font-size: 30px;
+        display: none;
+    }
+    .list-item{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        &:hover{
+            background-color: #ebebeb;
+            cursor: pointer;
+            .dele{
+                display: block;
+            }
+        }
+    }
+    .items{
+        margin-left: 20px;
+    }
+    input{
+        border-radius: 4px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .add-todos{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        outline: 0;
+        border: 0;
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        color: white;
+        background-color: #1fca25;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px #c0edc2;
+        cursor: pointer;
+    }
+}
