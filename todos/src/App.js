@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="todo-box">
         <div className="card">
-          <div class="card-header">TO-DO LIST</div>
+          <div className="card-header">TO-DO LIST</div>
           <TodoLists/>
         </div>
       </div>
